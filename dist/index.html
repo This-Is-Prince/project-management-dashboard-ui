@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Rubik:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Project Management Dashboard UI</title>
+    <script type="module" crossorigin src="./assets/index.163aefcf.js"></script>
+    <link rel="stylesheet" href="./assets/index.54f1de9e.css" />
+  </head>
+  <body
+    style="visibility: hidden"
+    onload="document.body.style.visibility='visible'"
+  >
+    <header class="header">
+      <section class="header__search-bar-layer">
+        <article class="search-bar-container">
+          <input type="text" class="search-bar" placeholder="Search" />
+          <button class="search-btn icon-btn btn">
+            <i class="fa fa-search"></i>
+          </button>
+        </article>
+        <article class="header__btns">
+          <button class="header__btn msg-open-btn btn">
+            <i class="far fa-comment-alt"></i>
+          </button>
+          <button class="header__btn day-night-btn btn">
+            <i class="far fa-moon"></i>
+          </button>
+          <button class="header__btn btn">
+            <i class="fa fa-plus-circle"></i>
+          </button>
+          <button class="header__btn btn">
+            <i class="far fa-bell"></i>
+          </button>
+        </article>
+        <article class="hero-container">
+          <img
+            src="/assets/profile.7e1f127d.png"
+            alt="profile image"
+            class="hero-img"
+          />
+          <h3 class="hero-title">Prince</h3>
+        </article>
+      </section>
+      <section class="header__nav-links-layer">
+        <article class="header__nav-links flex-space-btw">
+          <a href="#" class="nav-link flex-center nav-link-active">
+            <i class="fa fa-home"></i>
+          </a>
+          <a href="#" class="nav-link flex-center">
+            <i class="far fa-clock"></i>
+          </a>
+          <a href="#" class="nav-link flex-center">
+            <i class="far fa-calendar-alt"></i>
+          </a>
+          <a href="#" class="nav-link flex-center">
+            <i class="fa fa-cog"></i>
+          </a>
+        </article>
+        <article class="header__btns">
+          <button class="header__btn msg-open-btn btn">
+            <i class="far fa-comment-alt"></i>
+          </button>
+          <button class="header__btn day-night-btn btn">
+            <i class="far fa-moon"></i>
+          </button>
+          <button class="header__btn btn">
+            <i class="fa fa-plus-circle"></i>
+          </button>
+          <button class="header__btn btn">
+            <i class="far fa-bell"></i>
+          </button>
+        </article>
+      </section>
+      <section class="header__btn-layer flex-space-btw">
+        <article class="hero-container">
+          <img
+            src="/assets/profile.7e1f127d.png"
+            alt="profile image"
+            class="hero-img"
+          />
+          <h3 class="hero-title">Prince</h3>
+        </article>
+        <article class="header__btns">
+          <button class="header__btn msg-open-btn btn">
+            <i class="far fa-comment-alt"></i>
+          </button>
+          <button class="header__btn day-night-btn btn">
+            <i class="far fa-moon"></i>
+          </button>
+          <button class="header__btn btn">
+            <i class="fa fa-plus-circle"></i>
+          </button>
+          <button class="header__btn btn">
+            <i class="far fa-bell"></i>
+          </button>
+        </article>
+      </section>
+    </header>
+    <main class="main">
+      <article class="main__nav-links">
+        <a href="#" class="nav-link flex-center nav-link-active">
+          <i class="fa fa-home"></i>
+        </a>
+        <a href="#" class="nav-link flex-center">
+          <i class="far fa-clock"></i>
+        </a>
+        <a href="#" class="nav-link flex-center">
+          <i class="far fa-calendar-alt"></i>
+        </a>
+        <a href="#" class="nav-link flex-center">
+          <i class="fa fa-cog"></i>
+        </a>
+      </article>
+      <section class="projects-section">
+        <header class="projects-header">
+          <article class="projects-header__first-layer">
+            <h3 class="projects-title">Projects</h3>
+            <h3 class="date">December, 12</h3>
+          </article>
+          <article class="projects-header__second-layer">
+            <ul class="projects-info-list">
+              <li>
+                <span>45</span>
+                <span>in progress</span>
+              </li>
+              <li>
+                <span>24</span>
+                <span>upcoming</span>
+              </li>
+              <li>
+                <span>62</span>
+                <span>total projects</span>
+              </li>
+            </ul>
+            <div class="projects-show-btn-container">
+              <button class="btn projects-show-btn slides-btn nav-link">
+                <i class="fa fa-th-list"></i>
+              </button>
+              <button
+                class="btn projects-show-btn box-btn nav-link nav-link-active"
+              >
+                <i class="fa fa-th-large"></i>
+              </button>
+            </div>
+          </article>
+        </header>
+        <section class="projects">
+          <article class="project project-web">
+            <p class="project-date">December 10, 2020</p>
+            <button class="btn project-btn">
+              <i class="fa fa-ellipsis-h"></i>
+            </button>
+            <p class="project-title">Web Designing</p>
+            <p class="project-type">Prototyping</p>
+            <section class="project-progress">
+              <p class="progress-title">Progress</p>
+              <div class="progress-bar"></div>
+              <p class="progress-percentage">60%</p>
+            </section>
+            <div class="project-underline"></div>
+            <div class="project-add-btns">
+              <button class="btn project-add-btn">
+                <i class="fa fa-plus-circle"></i>
+              </button>
+            </div>
+            <p class="project-time-left">2 days left</p>
+          </article>
+          <article class="project project-testing">
+            <p class="project-date">January 2, 2021</p>
+            <button class="btn project-btn">
+              <i class="fa fa-ellipsis-h"></i>
+            </button>
+            <p class="project-title">Testing</p>
+            <p class="project-type">Prototyping</p>
+            <section class="project-progress">
+              <p class="progress-title">Progress</p>
+              <div class="progress-bar progress-testing"></div>
+              <p class="progress-percentage">50%</p>
+            </section>
+            <div class="project-underline"></div>
+            <div class="project-add-btns">
+              <button class="btn project-add-btn">
+                <i class="fa fa-plus-circle"></i>
+              </button>
+            </div>
+            <p class="project-time-left">20 days left</p>
+          </article>
+          <article class="project project-svg">
+            <p class="project-date">June 20, 2021</p>
+            <button class="btn project-btn">
+              <i class="fa fa-ellipsis-h"></i>
+            </button>
+            <p class="project-title">Svg Animations</p>
+            <p class="project-type">Prototyping</p>
+            <section class="project-progress">
+              <p class="progress-title">Progress</p>
+              <div class="progress-bar progress-svg"></div>
+              <p class="progress-percentage">80%</p>
+            </section>
+            <div class="project-underline"></div>
+            <div class="project-add-btns">
+              <button class="btn project-add-btn">
+                <i class="fa fa-plus-circle"></i>
+              </button>
+            </div>
+            <p class="project-time-left">2 days left</p>
+          </article>
+          <article class="project project-ui">
+            <p class="project-date">March 1, 2021</p>
+            <button class="btn project-btn">
+              <i class="fa fa-ellipsis-h"></i>
+            </button>
+            <p class="project-title">UI Development</p>
+            <p class="project-type">Prototyping</p>
+            <section class="project-progress">
+              <p class="progress-title">Progress</p>
+              <div class="progress-bar progress-ui"></div>
+              <p class="progress-percentage">20%</p>
+            </section>
+            <div class="project-underline"></div>
+            <div class="project-add-btns">
+              <button class="btn project-add-btn">
+                <i class="fa fa-plus-circle"></i>
+              </button>
+            </div>
+            <p class="project-time-left">5 days left</p>
+          </article>
+          <article class="project project-data-analysis">
+            <p class="project-date">September 25, 2020</p>
+            <button class="btn project-btn">
+              <i class="fa fa-ellipsis-h"></i>
+            </button>
+            <p class="project-title">Data Analysis</p>
+            <p class="project-type">Prototyping</p>
+            <section class="project-progress">
+              <p class="progress-title">Progress</p>
+              <div class="progress-bar"></div>
+              <p class="progress-percentage">60%</p>
+            </section>
+            <div class="project-underline"></div>
+            <div class="project-add-btns">
+              <button class="btn project-add-btn">
+                <i class="fa fa-plus-circle"></i>
+              </button>
+            </div>
+            <p class="project-time-left">10 days left</p>
+          </article>
+          <article class="project project-react">
+            <p class="project-date">April 14, 2021</p>
+            <button class="btn project-btn">
+              <i class="fa fa-ellipsis-h"></i>
+            </button>
+            <p class="project-title">React App</p>
+            <p class="project-type">Prototyping</p>
+            <section class="project-progress">
+              <p class="progress-title">Progress</p>
+              <div class="progress-bar progress-react"></div>
+              <p class="progress-percentage">40%</p>
+            </section>
+            <div class="project-underline"></div>
+            <div class="project-add-btns">
+              <button class="btn project-add-btn">
+                <i class="fa fa-plus-circle"></i>
+              </button>
+            </div>
+            <p class="project-time-left">28 days left</p>
+          </article>
+        </section>
+      </section>
+      <section class="msg-section">
+        <header class="msg-section-header flex-space-btw">
+          <h3 class="msg-title">Client Messages</h3>
+          <button class="btn msg-close-btn">
+            <i class="far fa-times-circle"></i>
+          </button>
+        </header>
+        <div class="msg-underline"></div>
+        <article class="msg">
+          <header class="msg-header">
+            <img src="/assets/ethen.50605f96.jfif" alt="" class="hero-img" />
+            <h4 class="hero-title">Ethen</h4>
+            <button class="msg-star-btn btn">
+              <i class="far fa-star"></i>
+            </button>
+          </header>
+          <p class="text-msg">
+            I got your first assignment. It was quite good. 🥳 We can continue
+            with the next assignment.
+          </p>
+          <p class="msg-time">Dec, 12</p>
+        </article>
+        <div class="msg-underline"></div>
+        <article class="msg">
+          <header class="msg-header">
+            <img src="/assets/arya.a92ddf25.jfif" alt="" class="hero-img" />
+            <h4 class="hero-title">Arya</h4>
+            <button class="msg-star-btn btn">
+              <i class="far fa-star"></i>
+            </button>
+          </header>
+          <p class="text-msg">
+            Hey, can tell me about progress of project? I'm waiting for your
+            response.
+          </p>
+          <p class="msg-time">january, 2</p>
+        </article>
+        <div class="msg-underline"></div>
+        <article class="msg">
+          <header class="msg-header">
+            <img src="/assets/daario.f0fa5996.jfif" alt="" class="hero-img" />
+            <h4 class="hero-title">Darrio</h4>
+            <button class="msg-star-btn btn">
+              <i class="far fa-star"></i>
+            </button>
+          </header>
+          <p class="text-msg">
+            Awesome! 🤩 I like it. We can schedule a meeting for the next one.
+          </p>
+          <p class="msg-time">June, 2</p>
+        </article>
+        <div class="msg-underline"></div>
+        <article class="msg">
+          <header class="msg-header">
+            <img src="/assets/khaleesi.ffc88afc.jfif" alt="" class="hero-img" />
+            <h4 class="hero-title">Khaleesi</h4>
+            <button class="msg-star-btn btn">
+              <i class="far fa-star"></i>
+            </button>
+          </header>
+          <p class="text-msg">
+            I am really impressed! Can't wait to see the final result.
+          </p>
+          <p class="msg-time">Nov, 28</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
